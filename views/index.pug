@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    title Baddass Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+       ul 
+          div#logo
+              img(src="/static/img/dance-logo.png")
+              | HDA  
+          li #[a(href="/") About]   
+          li #[a(href="/") Home]  
+          li #[a(href="/") Service]  
+          li #[a(href="/") Classes]  
+          li #[a(href="/") Contact]  
+      
+    section#introSection 
+        div  Welcome To Academy
+        div Always Baddass.
+         
+
+    section#MissionSection 
+        h2 Our Mission
+        div.card 
+            
+            div.card-img
+                img(src="/static/img/1.png")
+                div.card-content
+                p Dance Perfection
+        div.ard 
+            
+            div.card-img
+                img(src="/static/img/2.png")
+                div.card-content
+                p Best Academy in the univrese 
+        div.crd 
+            
+            div.card-img
+                img(src="/static/img/3.png")
+                div.card-content
+                p We Are badass 
+
+    section#sponsorsSection 
+        div Our sponsors
+        div#sponsor 
+            img(src="/static/img/logo (1).png", alt="sponsors image",Class="spImage")
+            img(src="/static/img/logo (2).png", alt="sponsors image",Class="spImage")
+            img(src="/static/img/logo (3).png", alt="sponsors image",Class="spImage")
+            img(src="/static/img/logo (4).png", alt="sponsors image",Class="spImage")
+    footer#footer
+        | copyright 2021 baddass academy.com | All right reserve.            
+    script
+      include ../static/index.js

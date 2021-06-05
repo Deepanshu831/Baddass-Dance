@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -16px -7px;
+    margin-left: 18px;
+}
+#logo img{
+    height: 30px;
+}
+#navbar {
+     background-color: white;
+     padding: 17px 7px;
+     font-family: 'Freckle Face', cursive;
+
+} 
+#navbar ul {
+   display: flex;
+   flex-direction: row;
+}
+
+#navbar li {
+   list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: rgb(240, 101, 83);
+
+}
+
+#introSection{
+        padding-top: 170px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        font-size: 2rem;
+        flex-direction: column;
+        height: 300px;
+        font-family: 'Freckle Face', cursive;
+        background-color: antiquewhite;
+        background: center / cover no-repeat url("/static/img/77238.jpg");
+           
+}
+
+#MissionSection{ 
+    margin: auto;
+    width: 100%;
+    height: 326px;
+    display: block;
+    font-family: 'Freckle Face', cursive;
+    justify-content: center;
+    background-color: bisque;
+   
+}
+
+#MissionSection h2{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Freckle Face', cursive;
+    padding-top: 12px;
+ 
+}
+
+.card{
+    display: inline-flex;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 0px 11px;
+    height: 204px;
+    background-color: white;
+}
+.ard{
+    display: inline-flex;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 0px 9px;
+    height: 204px;
+    background-color: white;
+}
+
+.crd{
+    display: inline-flex;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 8px 10px;
+    height: 204px;
+    background-color: white;
+}
+.card h3{
+    text-align: center;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 7px 50px;
+}
+.card-img img{
+    height: inherit;
+
+}
+
+
+
+#sponsorsSection{
+    height: 300px;
+    background-color: white;
+    color: rgb(101, 197, 241);
+    font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    text-align: center ;
+    padding-top: 4px;
+    
+    
+}
+#sponsor{
+    height: 140px;
+    max-width: 1000px;
+    margin:auto;
+}
+.spImage{
+    height: 70px;
+    margin: 17px;
+}
+#footer{
+    height: 30px;
+    background-color: rgb(218, 134, 134);
+    font-family: 'Freckle Face', cursive;
+    color: black;
+    font-size: 1rem;
+    text-align: right;
+    padding: 30px;
+    background: center / cover no-repeat url("/static/img/3840 (1).jpg");
+}
